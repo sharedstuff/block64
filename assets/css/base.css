@@ -1,0 +1,37 @@
+.wp-block-cover h1,
+.wp-block-cover h2,
+.wp-block-cover h3,
+.wp-block-cover h4,
+.wp-block-cover h5,
+.wp-block-cover h6 {
+	text-shadow: 0 0 1px #000000, 0 0 5px #000000 !important;
+}
+
+.wp-site-blocks > *,
+.entry-content > * {
+	margin-block-start: 0 !important;
+	margin-block-end: 0 !important;
+}
+
+.wp-block-navigation__responsive-container {
+	padding: 1rem 1rem 1rem 1rem !important;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+ 	text-decoration: none;
+	color: inherit;
+}
+
+.custom-logo {
+	height: 2rem !important;
+	width: auto !important;
+}
+
+@media only screen and (max-width: 80rem) {
+	.wp-block-site-title {
+    	display: none;
+	}
+}

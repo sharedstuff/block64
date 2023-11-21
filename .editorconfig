@@ -1,0 +1,10 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+[*.json]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.html]
+indent_style = tab
+trim_trailing_whitespace = true
