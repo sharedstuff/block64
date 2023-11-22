@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: footer-inner-right
  * Slug: block64/footer-inner-right
