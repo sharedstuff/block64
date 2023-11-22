@@ -56,8 +56,36 @@ a:hover {
 @font-face {
 	font-family: 'Material Symbols Outlined';
 	font-style: normal;
+	font-weight: 200;
+	src: local('Material Symbols Outlined'), local('MaterialSymbols-Outlined'), url(/wp-content/themes/block64/assets/fonts/material-symbols-outlined-v151-latin/material-symbols-outlined-v151-latin-200.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Material Symbols Outlined';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Material Symbols Outlined'), local('MaterialSymbols-Outlined'), url(/wp-content/themes/block64/assets/fonts/material-symbols-outlined-v151-latin/material-symbols-outlined-v151-latin-300.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Material Symbols Outlined';
+	font-style: normal;
 	font-weight: 400;
 	src: local('Material Symbols Outlined'), local('MaterialSymbols-Outlined'), url(/wp-content/themes/block64/assets/fonts/material-symbols-outlined-v151-latin/material-symbols-outlined-v151-latin-400.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Material Symbols Outlined';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Material Symbols Outlined'), local('MaterialSymbols-Outlined'), url(/wp-content/themes/block64/assets/fonts/material-symbols-outlined-v151-latin/material-symbols-outlined-v151-latin-500.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Material Symbols Outlined';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Material Symbols Outlined'), local('MaterialSymbols-Outlined'), url(/wp-content/themes/block64/assets/fonts/material-symbols-outlined-v151-latin/material-symbols-outlined-v151-latin-600.woff2) format('woff2');
 }
 
 @font-face {
