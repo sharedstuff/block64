@@ -14,15 +14,9 @@ $options = get_option('block64_theme_options');
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
 
-    <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-    <div class="wp-block-group">
+    <!-- wp:site-logo {"width":32,"isLink":false} /-->
 
-        <!-- wp:site-logo {"width":32,"isLink":false} /-->
-
-        <!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} /-->
-
-    </div>
-    <!-- /wp:group -->
+    <!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} /-->
 
     <!-- wp:paragraph -->
     <p><?php echo $options['Organization_name'] ?></p>
