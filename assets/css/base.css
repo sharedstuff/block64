@@ -14,7 +14,7 @@
 }
 
 .wp-block-navigation__responsive-container {
-	padding: 1rem 1rem 1rem 1rem !important;
+	padding: var(--wp--preset--spacing--125) var(--wp--style--root--padding-right) var(--wp--preset--spacing--125) var(--wp--style--root--padding-left) !important;
 }
 
 a:link,
