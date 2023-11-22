@@ -1,3 +1,4 @@
+/* headlines in cover */
 .wp-block-cover h1,
 .wp-block-cover h2,
 .wp-block-cover h3,
@@ -7,31 +8,75 @@
 	text-shadow: 0 0 1px #000000, 0 0 5px #000000 !important;
 }
 
-.wp-site-blocks > *,
-.entry-content > * {
+/* remove vertical block margins */
+.wp-site-blocks>*,
+.entry-content>* {
 	margin-block-start: 0 !important;
 	margin-block-end: 0 !important;
 }
 
+/* add padding to responsive menu */
 .wp-block-navigation__responsive-container {
 	padding: var(--wp--preset--spacing--125) var(--wp--style--root--padding-right) var(--wp--preset--spacing--125) var(--wp--style--root--padding-left) !important;
 }
 
+/* style links */
 a:link,
 a:visited,
 a:active,
 a:hover {
- 	text-decoration: none;
+	text-decoration: none;
 	color: inherit;
 }
 
+/* resize the logo */
 .custom-logo {
 	height: 2rem !important;
 	width: auto !important;
 }
 
+/* dont show title on mobile (prevent collision) */
 @media only screen and (max-width: 80rem) {
 	.wp-block-site-title {
-    	display: none;
+		display: none;
 	}
+}
+
+/* https://developers.google.com/fonts/docs/material_icons */
+
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Material Icons'), local('MaterialIcons-Regular'), url(/wp-content/themes/block64/assets/fonts/material-design-icons-4.0.0/material-design-icons-4.0.0-regular.woff2) format('woff2');
+}
+
+.material-icons {
+
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1rem;
+
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+
 }
