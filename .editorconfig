@@ -1,10 +1,24 @@
 # EditorConfig is awesome: https://EditorConfig.org
 
 [*.json]
-indent_style = space
 indent_size = 4
+indent_style = space
 trim_trailing_whitespace = true
 
 [*.html]
+charset = utf-8
 indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.php]
+charset = utf-8
+indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.css]
+charset = utf-8
+indent_style = tab
+insert_final_newline = true
 trim_trailing_whitespace = true
