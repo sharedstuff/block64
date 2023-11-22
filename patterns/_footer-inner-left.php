@@ -58,7 +58,7 @@
 	<?php if ($options['Organization_faxNumber']) : ?>
 		<!-- wp:paragraph -->
 		<p>
-			<a href="tel:<?php echo preg_replace('/[^\+0-9]/', '', $options['Organization_faxNumber']) ?>" target="_blank" rel="noreferrer noopener"><?php echo $options['Organization_faxNumber'] ?></a>
+			<a href="fax:<?php echo preg_replace('/[^\+0-9]/', '', $options['Organization_faxNumber']) ?>" target="_blank" rel="noreferrer noopener"><?php echo $options['Organization_faxNumber'] ?></a>
 		</p>
 		<!-- /wp:paragraph -->
 	<?php endif; ?>
@@ -66,7 +66,7 @@
 	<?php if ($options['Organization_url']) : ?>
 		<!-- wp:paragraph -->
 		<p>
-			<a href="tel:<?php echo $options['Organization_url'] ?>" target="_blank" rel="noreferrer noopener"><?php echo $options['Organization_url'] ?></a>
+			<a href="<?php echo $options['Organization_url'] ?>" target="_blank" rel="noreferrer noopener"><?php echo $options['Organization_url'] ?></a>
 		</p>
 		<!-- /wp:paragraph -->
 	<?php endif; ?>
