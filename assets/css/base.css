@@ -42,8 +42,9 @@ a:hover {
 	}
 }
 
-/* https://developers.google.com/fonts/docs/material_icons */
 
+
+/* https://developers.google.com/fonts/docs/material_icons */
 
 @font-face {
 	font-family: 'Material Icons';
@@ -52,7 +53,23 @@ a:hover {
 	src: local('Material Icons'), local('MaterialIcons-Regular'), url(/wp-content/themes/block64/assets/fonts/material-design-icons-4.0.0/material-design-icons-4.0.0-regular.woff2) format('woff2');
 }
 
+@font-face {
+	font-family: 'Material Icons Outlined';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Material Icons Outlined'), local('MaterialIcons-Outlined'), url(/wp-content/themes/block64/assets/fonts/material-design-icons-4.0.0/material-design-icons-4.0.0-outlined.woff2) format('woff2');
+}
+
 .material-icons {
+	font-family: 'Material Icons';
+}
+
+.material-icons-outlined {
+	font-family: 'Material Icons Outlined';
+}
+
+.material-icons,
+.material-icons-outlined {
 
 	font-family: 'Material Icons';
 	font-weight: normal;
