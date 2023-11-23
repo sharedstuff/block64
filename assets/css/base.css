@@ -41,3 +41,10 @@ a:hover {
 		display: none;
 	}
 }
+
+/* material-symbol */
+.material-symbol {
+	vertical-align: sub;
+	margin-right: .38rem;
+	opacity: .62;
+}
