@@ -42,7 +42,10 @@
 	<?php if ($options['Organization_email']) : ?>
 		<!-- wp:paragraph -->
 		<p>
-			<a href="mailto:<?php echo $options['Organization_email'] ?>" data-type="mailto" data-id="mailto:<?php echo $options['Organization_email'] ?>" target="_blank" rel="noreferrer noopener"><img style="width: 24px;" class="material-symbol" src="<?php echo esc_url(get_theme_file_uri('/assets/icons/material-symbols/alternate_email_FILL0_wght400_GRAD0_opsz24.svg')) ?>" alt="alternate_email"><?php echo $options['Organization_email'] ?></a>
+			<a href="mailto:<?php echo $options['Organization_email'] ?>" data-type="mailto" data-id="mailto:<?php echo $options['Organization_email'] ?>" target="_blank" rel="noreferrer noopener" style="display: flex; align-items: center;">
+				<img style="width: 24px;" class="material-symbol" src="<?php echo esc_url(get_theme_file_uri('/assets/icons/material-symbols/alternate_email_FILL0_wght400_GRAD0_opsz24.svg')) ?>" alt="alternate_email">
+				<span><?php echo $options['Organization_email'] ?></span>
+			</a>
 		</p>
 		<!-- /wp:paragraph -->
 	<?php endif; ?>
@@ -50,7 +53,10 @@
 	<?php if ($options['Organization_telephone']) : ?>
 		<!-- wp:paragraph -->
 		<p>
-			<a href="tel:<?php echo preg_replace('/[^\+0-9]/', '', $options['Organization_telephone']) ?>" target="_blank" rel="noreferrer noopener"><img style="width: 24px;" class="material-symbol" src="<?php echo esc_url(get_theme_file_uri('/assets/icons/material-symbols/call_FILL0_wght400_GRAD0_opsz24.svg')) ?>" alt="call"><?php echo $options['Organization_telephone'] ?></a>
+			<a href="tel:<?php echo preg_replace('/[^\+0-9]/', '', $options['Organization_telephone']) ?>" target="_blank" rel="noreferrer noopener" style="display: flex; align-items: center;">
+				<img style="width: 24px;" class="material-symbol" src="<?php echo esc_url(get_theme_file_uri('/assets/icons/material-symbols/call_FILL0_wght400_GRAD0_opsz24.svg')) ?>" alt="call">
+				<span><?php echo $options['Organization_telephone'] ?></span>
+			</a>
 		</p>
 		<!-- /wp:paragraph -->
 	<?php endif; ?>
@@ -58,7 +64,10 @@
 	<?php if ($options['Organization_faxNumber']) : ?>
 		<!-- wp:paragraph -->
 		<p>
-			<a href="fax:<?php echo preg_replace('/[^\+0-9]/', '', $options['Organization_faxNumber']) ?>" target="_blank" rel="noreferrer noopener"><img style="width: 24px;" class="material-symbol" src="<?php echo esc_url(get_theme_file_uri('/assets/icons/material-symbols/fax_FILL0_wght400_GRAD0_opsz24.svg')) ?>" alt="fax"><?php echo $options['Organization_faxNumber'] ?></a>
+			<a href="fax:<?php echo preg_replace('/[^\+0-9]/', '', $options['Organization_faxNumber']) ?>" target="_blank" rel="noreferrer noopener" style="display: flex; align-items: center;">
+				<img style="width: 24px;" class="material-symbol" src="<?php echo esc_url(get_theme_file_uri('/assets/icons/material-symbols/fax_FILL0_wght400_GRAD0_opsz24.svg')) ?>" alt="fax">
+				<span><?php echo $options['Organization_faxNumber'] ?></span>
+			</a>
 		</p>
 		<!-- /wp:paragraph -->
 	<?php endif; ?>
@@ -66,7 +75,10 @@
 	<?php if ($options['Organization_url']) : ?>
 		<!-- wp:paragraph -->
 		<p>
-			<a href="<?php echo $options['Organization_url'] ?>" target="_blank" rel="noreferrer noopener"><img style="width: 24px;" class="material-symbol" src="<?php echo esc_url(get_theme_file_uri('/assets/icons/material-symbols/link_FILL0_wght400_GRAD0_opsz24.svg')) ?>" alt="link"><?php echo $options['Organization_url'] ?></a>
+			<a href="<?php echo $options['Organization_url'] ?>" target="_blank" rel="noreferrer noopener" style="display: flex; align-items: center;">
+				<img style="width: 24px;" class="material-symbol" src="<?php echo esc_url(get_theme_file_uri('/assets/icons/material-symbols/link_FILL0_wght400_GRAD0_opsz24.svg')) ?>" alt="link">
+				<span><?php echo $options['Organization_url'] ?></span>
+			</a>
 		</p>
 		<!-- /wp:paragraph -->
 	<?php endif; ?>
