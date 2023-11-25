@@ -13,8 +13,8 @@
 
 	<!-- wp:post-template {"layout":{"type":"default"}} -->
 
-	<!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"minHeight":68,"minHeightUnit":"vh","contentPosition":"bottom center","isDark":false,"align":"full","layout":{"type":"constrained"}} -->
-	<div class="wp-block-cover alignfull is-light has-custom-content-position is-position-bottom-center" style="min-height:68vh">
+	<!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"minHeight":62,"minHeightUnit":"vh","contentPosition":"bottom center","isDark":false,"align":"full","layout":{"type":"constrained"}} -->
+	<div class="wp-block-cover alignfull is-light has-custom-content-position is-position-bottom-center" style="min-height:62vh">
 		<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim">
 		</span>
 		<div class="wp-block-cover__inner-container">

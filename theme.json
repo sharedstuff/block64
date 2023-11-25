@@ -116,6 +116,16 @@
 					"name": "5rem",
 					"size": "5rem",
 					"slug": "500"
+				},
+				{
+					"name": "8rem",
+					"size": "8rem",
+					"slug": "800"
+				},
+				{
+					"name": "13rem",
+					"size": "13rem",
+					"slug": "1300"
 				}
 			],
 			"units": [

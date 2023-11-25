@@ -10,8 +10,8 @@
 
 <?php $options = get_option('block64_theme_options'); ?>
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|125","bottom":"var:preset|spacing|500"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--125);padding-bottom:var(--wp--preset--spacing--500)">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|125","bottom":"var:preset|spacing|500"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--125);padding-bottom:var(--wp--preset--spacing--500)">
 
 	<!-- wp:columns {"verticalAlignment":"top","align":"wide"} -->
 	<div class="wp-block-columns alignwide are-vertically-aligned-top">
