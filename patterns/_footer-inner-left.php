@@ -10,16 +10,12 @@
 
 <?php $options = get_option('block64_theme_options'); ?>
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group">
-
-	<!-- wp:site-logo {"width":32,"isLink":false} /-->
-
-	<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} /-->
+<!-- wp:group {"style":{"spacing":{"padding":{"left":"0","top":"0","right":"0","bottom":"0"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 
 	<?php if ($options['Organization_name']) : ?>
-		<!-- wp:paragraph -->
-		<p><?php echo $options['Organization_name'] ?></p>
+		<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
+		<p class="has-large-font-size" style="font-style:normal;font-weight:500"><?php echo $options['Organization_name'] ?></p>
 		<!-- /wp:paragraph -->
 	<?php endif; ?>
 
@@ -81,26 +77,6 @@
 			</a>
 		</p>
 		<!-- /wp:paragraph -->
-	<?php endif; ?>
-
-	<?php if ($options['SocialMedia_Facebook'] || $options['SocialMedia_YouTube'] || $options['SocialMedia_Instagram']) : ?>
-		<!-- wp:social-links -->
-		<ul class="wp-block-social-links">
-
-			<?php if ($options['SocialMedia_Facebook']) : ?>
-				<!-- wp:social-link {"url":"<?php echo $options['SocialMedia_Facebook'] ?>","service":"facebook"} /-->
-			<?php endif; ?>
-
-			<?php if ($options['SocialMedia_YouTube']) : ?>
-				<!-- wp:social-link {"url":"<?php echo $options['SocialMedia_YouTube'] ?>","service":"youtube"} /-->
-			<?php endif; ?>
-
-			<?php if ($options['SocialMedia_Instagram']) : ?>
-				<!-- wp:social-link {"url":"<?php echo $options['SocialMedia_Instagram'] ?>","service":"instagram"} /-->
-			<?php endif; ?>
-
-		</ul>
-		<!-- /wp:social-links -->
 	<?php endif; ?>
 
 </div>

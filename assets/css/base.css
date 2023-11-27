@@ -9,15 +9,14 @@
 }
 
 /* remove vertical block margins */
-.wp-site-blocks>*,
-.entry-content>* {
+.wp-site-blocks>* {
 	margin-block-start: 0 !important;
 	margin-block-end: 0 !important;
 }
 
 /* add padding to responsive menu */
 .wp-block-navigation__responsive-container {
-	padding: var(--wp--preset--spacing--125) var(--wp--style--root--padding-right) var(--wp--preset--spacing--125) var(--wp--style--root--padding-left) !important;
+	padding: var(--wp--preset--spacing--150) var(--wp--style--root--padding-right) var(--wp--preset--spacing--125) var(--wp--style--root--padding-left) !important;
 }
 
 /* style links */
@@ -35,16 +34,9 @@ a:hover {
 	width: auto !important;
 }
 
-/* dont show title on mobile (prevent collision) */
-@media only screen and (max-width: 80rem) {
-	.wp-block-site-title {
-		display: none;
-	}
-}
-
 /* material-symbol */
 .material-symbol {
 	vertical-align: sub;
-	margin-right: .38rem;
+	margin-right: .62rem;
 	opacity: .62;
 }

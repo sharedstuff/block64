@@ -7,52 +7,58 @@
  */
 ?>
 
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|100"}}},"className":"block64_pattern_wide_img-right","layout":{"type":"constrained"},"metadata":{"name":"wide_img-right"}} -->
-<div class="wp-block-group alignwide block64_pattern_wide_img-right" style="padding-top:var(--wp--preset--spacing--100);padding-bottom:var(--wp--preset--spacing--100)">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"className":"block64_pattern_wide_img-right","layout":{"type":"default"},"metadata":{"name":"wide_img-right"}} -->
+<div class="wp-block-group alignfull block64_pattern_wide_img-right" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 
-	<!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide">
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignwide" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0">
 
-		<!-- wp:column {"verticalAlignment":"center","width":"68%"} -->
-		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:68%">
+		<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|200","left":"var:preset|spacing|300"},"padding":{"top":"var:preset|spacing|200","bottom":"var:preset|spacing|200"},"margin":{"top":"0","bottom":"0"}}}} -->
+		<div class="wp-block-columns alignwide" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--200);padding-bottom:var(--wp--preset--spacing--200)">
 
-			<!-- wp:heading {"align":"wide"} -->
-			<h2 class="wp-block-heading alignwide">Headline h2</h2>
-			<!-- /wp:heading -->
+			<!-- wp:column {"verticalAlignment":"center","width":"38%"} -->
+			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:38%">
 
-			<!-- wp:paragraph -->
-			<p>Paragraph: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-			<!-- /wp:paragraph -->
+				<!-- wp:heading {"align":"wide"} -->
+				<h2 class="wp-block-heading alignwide">wide_img-right Headline h2 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</h2>
+				<!-- /wp:heading -->
 
-			<!-- wp:buttons -->
-			<div class="wp-block-buttons">
+				<!-- wp:paragraph -->
+				<p>Paragraph: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				<!-- /wp:paragraph -->
 
-				<!-- wp:button -->
-				<div class="wp-block-button">
-					<a class="wp-block-button__link wp-element-button">Button</a>
-				</div>
-				<!-- /wp:button -->
+                <!-- wp:buttons -->
+                <div class="wp-block-buttons">
+
+                    <!-- wp:button -->
+                    <div class="wp-block-button">
+                        <a class="wp-block-button__link wp-element-button" href="#">Button</a>
+                    </div>
+                    <!-- /wp:button -->
+
+                </div>
+                <!-- /wp:buttons -->
 
 			</div>
-			<!-- /wp:buttons -->
+			<!-- /wp:column -->
+
+			<!-- wp:column {"width":"62%"} -->
+			<div class="wp-block-column" style="flex-basis:62%">
+
+				<!-- wp:image {"align":"center","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":[]},"className":"is-style-rounded"} -->
+				<figure class="wp-block-image aligncenter size-full is-style-rounded">
+					<img src="<?php echo esc_url(get_theme_file_uri('/assets/img/test.webp')) ?>" alt="" style="aspect-ratio:1;object-fit:cover" />
+				</figure>
+				<!-- /wp:image -->
+
+			</div>
+			<!-- /wp:column -->
 
 		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"width":"32%"} -->
-		<div class="wp-block-column" style="flex-basis:32%">
-
-			<!-- wp:image {"align":"center","sizeSlug":"full","linkDestination":"none","style":{"color":[]},"className":"is-style-rounded"} -->
-			<figure class="wp-block-image aligncenter size-full is-style-rounded">
-				<img src="<?php echo esc_url(get_theme_file_uri('/assets/img/test.webp')) ?>" alt="" />
-			</figure>
-			<!-- /wp:image -->
-
-		</div>
-		<!-- /wp:column -->
+		<!-- /wp:columns -->
 
 	</div>
-	<!-- /wp:columns -->
+	<!-- /wp:group -->
 
 </div>
 <!-- /wp:group -->
