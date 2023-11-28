@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Title: full_cover-background
- * Slug: block64/full_cover-background
+ * Title: cover-background
+ * Slug: block64/cover-background
  * Categories: block64
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"className":"block64_pattern_full_cover-background","layout":{"type":"default"},"metadata":{"name":"full_cover-background"}} -->
-<div class="wp-block-group alignfull block64_pattern_full_cover-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"className":"block64_pattern_cover-background","layout":{"type":"default"},"metadata":{"name":"cover-background"}} -->
+<div class="wp-block-group alignfull block64_pattern_cover-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 
 	<!-- wp:cover {"url":"<?php echo esc_url(get_theme_file_uri('/assets/img/test.webp')) ?>","dimRatio":70,"style":{"color":[],"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-cover" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0">
@@ -21,7 +21,7 @@
 			<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--200);padding-bottom:var(--wp--preset--spacing--200)">
 
 				<!-- wp:heading -->
-				<h2 class="wp-block-heading">full_cover-background Headline h2 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</h2>
+				<h2 class="wp-block-heading">cover-background Headline h2 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->

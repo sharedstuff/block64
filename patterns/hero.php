@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Title: wide_hero
- * Slug: block64/wide_hero
+ * Title: hero
+ * Slug: block64/hero
  * Categories: block64
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"className":"block64_pattern_wide_hero","layout":{"type":"default"},"metadata":{"name":"wide_hero"}} -->
-<div class="wp-block-group alignfull block64_pattern_wide_hero" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"className":"block64_pattern_hero","layout":{"type":"default"},"metadata":{"name":"hero"}} -->
+<div class="wp-block-group alignfull block64_pattern_hero" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignwide" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0">
@@ -26,7 +26,7 @@
 			<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--200)">
 
 				<!-- wp:heading -->
-				<h2 class="wp-block-heading">wide_hero Headline h2 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</h2>
+				<h2 class="wp-block-heading">hero Headline h2 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
