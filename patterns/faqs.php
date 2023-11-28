@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast-2","textColor":"base","className":"block64_pattern_faqs","layout":{"type":"default"},"metadata":{"name":"faqs"}} -->
-<div class="wp-block-group alignfull block64_pattern_faqs has-base-color has-contrast-2-background-color has-text-color has-background has-link-color">
+<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"contrast-2","textColor":"base","className":"block64_pattern_faqs","layout":{"type":"default"},"metadata":{"name":"faqs"}} -->
+<div class="wp-block-group alignfull block64_pattern_faqs has-base-color has-contrast-2-background-color has-text-color has-background has-link-color" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 
 	<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|300","bottom":"var:preset|spacing|300"}}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--300);padding-bottom:var(--wp--preset--spacing--300)">
